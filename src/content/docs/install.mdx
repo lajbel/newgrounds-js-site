@@ -1,0 +1,43 @@
+---
+title: Installation
+description: Learn how to install Newgrounds.js in your game.
+---
+
+## NPM
+import { PackageManagers } from "starlight-package-managers";
+
+You can install Newgrounds.js using any of your favorite package managers
+
+<PackageManagers pkg="newgrounds.js" pkgManagers={["npm", "pnpm", "yarn", "bun", "ni" ]}/>
+
+```js
+// main.js
+import ng from "newgrounds.js";
+
+// Connect to your project
+await ng.connect("533327:b6GaR8Eb", "ivuwzsfewkqñwacRQ==");
+
+// Start using NG.io
+await ng.unlockMedal(129521);
+await ng.postScore(12052012, 50);
+```
+
+Also using this way you should build your project with a bundler like ESBuild
+or Webpack. This way has some benefits like autocomplete (thanks to TypeScript),
+minor bundle size, and tree shaking.
+
+## CDN
+If you prefer, you can also use a CDN to include  Newgrounds.js in your project.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/newgrounds.js/dist/newgrounds.js"></script>
+```
+
+```js
+// main.js
+// Then use it with the ng object
+
+ng.connect();
+ng.unlockMedal(129521);
+ng.postScore(12052012, 50);
+```
