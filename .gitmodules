@@ -1,0 +1,3 @@
+[submodule "newgrounds-js"]
+	path = newgrounds-js
+	url = https://github.com/lajbel/newgrounds-js.git

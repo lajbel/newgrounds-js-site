@@ -28,8 +28,8 @@ export default defineConfig({
             plugins: [
                 starlightTypeDoc({
                     entryPoints: [
-                        "../newgrounds-js/dist/global.d.ts",
-                        "../newgrounds-js/dist/newgrounds.d.ts",
+                        "./newgrounds-js/dist/global.d.ts",
+                        "./newgrounds-js/dist/newgrounds.d.ts",
                     ],
                     typeDoc: {
                         plugin: [
@@ -53,7 +53,7 @@ export default defineConfig({
                             "Functions",
                         ],
                     },
-                    tsconfig: "../newgrounds-js/tsconfig.json",
+                    tsconfig: "./newgrounds-js/tsconfig.json",
                     includeTag: "internalDoNotUse",
                     sidebar: {
                         label: "API Reference",
