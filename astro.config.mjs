@@ -4,7 +4,7 @@ import starlightTypeDoc, { typeDocSidebarGroup } from "starlight-typedoc";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://newgroundsjs.lajbel.com",
+    site: "https://newgrounds.js.org",
     integrations: [
         starlight({
             title: "Newgrounds.js",
