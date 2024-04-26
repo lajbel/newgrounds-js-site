@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v4
         with:
             submodules: "recursive"
+      - name: Build newgrounds-js
+        run: npm install && npm run dts && npm run build
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
