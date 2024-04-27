@@ -21,4 +21,4 @@ Contains information about a CloudSave slot.
 
 ## Source
 
-newgrounds.d.ts:100
+newgrounds.d.ts:109

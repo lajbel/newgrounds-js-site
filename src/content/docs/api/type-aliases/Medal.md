@@ -24,4 +24,4 @@ Contains information about a medal.
 
 ## Source
 
-newgrounds.d.ts:34
+newgrounds.d.ts:37

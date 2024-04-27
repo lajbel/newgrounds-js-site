@@ -17,4 +17,4 @@ title: "LoaderLoadAuthorUrlParams"
 
 ## Source
 
-newgrounds.d.ts:241
+newgrounds.d.ts:250

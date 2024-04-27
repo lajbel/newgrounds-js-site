@@ -15,4 +15,4 @@ title: "MedalGetMedalScoreData"
 
 ## Source
 
-newgrounds.d.ts:286
+newgrounds.d.ts:295

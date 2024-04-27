@@ -17,4 +17,4 @@ title: "LoaderLoadNewgroundsParams"
 
 ## Source
 
-newgrounds.d.ts:257
+newgrounds.d.ts:266

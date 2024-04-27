@@ -19,4 +19,4 @@ Contains any icons associated with this user.
 
 ## Source
 
-newgrounds.d.ts:165
+newgrounds.d.ts:174

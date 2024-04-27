@@ -15,4 +15,4 @@ title: "GatewayPingData"
 
 ## Source
 
-newgrounds.d.ts:234
+newgrounds.d.ts:243

@@ -9,4 +9,4 @@ title: "GatewayPingParams"
 
 ## Source
 
-newgrounds.d.ts:237
+newgrounds.d.ts:246

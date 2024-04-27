@@ -23,4 +23,4 @@ The data stored in the save slot
 
 ## Source
 
-newgrounds.d.ts:479
+newgrounds.d.ts:488

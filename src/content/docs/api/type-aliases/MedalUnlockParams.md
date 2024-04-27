@@ -15,4 +15,4 @@ title: "MedalUnlockParams"
 
 ## Source
 
-newgrounds.d.ts:294
+newgrounds.d.ts:303

@@ -17,4 +17,4 @@ title: "LoaderLoadOfficialUrlParams"
 
 ## Source
 
-newgrounds.d.ts:265
+newgrounds.d.ts:274

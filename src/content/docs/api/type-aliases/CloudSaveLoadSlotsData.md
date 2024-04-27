@@ -16,4 +16,4 @@ title: "CloudSaveLoadSlotsData"
 
 ## Source
 
-newgrounds.d.ts:204
+newgrounds.d.ts:213

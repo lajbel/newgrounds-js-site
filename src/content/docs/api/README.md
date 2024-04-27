@@ -7,21 +7,34 @@ title: "newgrounds.js"
 
 ## Functions
 
-- [connect](/api/functions/connect/)
-- [getCloudData](/api/functions/getclouddata/)
-- [getScores](/api/functions/getscores/)
-- [getUsername](/api/functions/getusername/)
-- [getVersion](/api/functions/getversion/)
-- [isSupporter](/api/functions/issupporter/)
-- [login](/api/functions/login/)
-- [postScore](/api/functions/postscore/)
-- [setCloudData](/api/functions/setclouddata/)
-- [unlockMedal](/api/functions/unlockmedal/)
+- [Connect](/api/functions/connect/)
+- [GetCloudData](/api/functions/getclouddata/)
+- [GetScores](/api/functions/getscores/)
+- [GetUsername](/api/functions/getusername/)
+- [GetVersion](/api/functions/getversion/)
+- [IsSupporter](/api/functions/issupporter/)
+- [Login](/api/functions/login/)
+- [PostScore](/api/functions/postscore/)
+- [SetCloudData](/api/functions/setclouddata/)
+- [UnlockMedal](/api/functions/unlockmedal/)
+- [connect](/api/functions/connect-1/)
+- [getCloudData](/api/functions/getclouddata-1/)
+- [getScores](/api/functions/getscores-1/)
+- [getUsername](/api/functions/getusername-1/)
+- [getVersion](/api/functions/getversion-1/)
+- [isSupporter](/api/functions/issupporter-1/)
+- [login](/api/functions/login-1/)
+- [postScore](/api/functions/postscore-1/)
+- [setCloudData](/api/functions/setclouddata-1/)
+- [unlockMedal](/api/functions/unlockmedal-1/)
 
 ## Interfaces
 
-- [Debug](/api/interfaces/debug/)
 - [Execute](/api/interfaces/execute/)
+- [NGDebug](/api/interfaces/ngdebug/)
+- [NGError](/api/interfaces/ngerror/)
+- [NGIORequest](/api/interfaces/ngiorequest/)
+- [NGIOResponse](/api/interfaces/ngioresponse/)
 - [NewgroundsJS](/api/interfaces/newgroundsjs/)
 
 ## Type Aliases
@@ -83,10 +96,5 @@ title: "newgrounds.js"
 
 ## Variables
 
+- [NewgroundsClient](/api/variables/newgroundsclient/)
 - [ng](/api/variables/ng/)
-
-## References
-
-### default
-
-Renames and re-exports [ng](/api/variables/ng/)

@@ -2,10 +2,10 @@
 editUrl: false
 next: false
 prev: false
-title: "isSupporter"
+title: "IsSupporter"
 ---
 
-> **isSupporter**(): `Promise`\<`boolean`\>
+> **IsSupporter**(): `Promise`\<`boolean`\>
 
 Check if the current user is a supporter
 
@@ -17,4 +17,4 @@ A boolean indicating if the user is a supporter, if they are logged in
 
 ## Source
 
-newgrounds.d.ts:478
+global.d.ts:10

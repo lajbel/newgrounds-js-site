@@ -20,4 +20,4 @@ Contains information about a user.
 
 ## Source
 
-newgrounds.d.ts:152
+newgrounds.d.ts:161

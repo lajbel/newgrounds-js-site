@@ -15,4 +15,4 @@ title: "LoaderLoadReferralData"
 
 ## Source
 
-newgrounds.d.ts:270
+newgrounds.d.ts:279

@@ -21,4 +21,4 @@ title: "ScoreBoardGetScoresData"
 
 ## Source
 
-newgrounds.d.ts:301
+newgrounds.d.ts:310

@@ -15,4 +15,4 @@ title: "AppStartSessionParams"
 
 ## Source
 
-newgrounds.d.ts:177
+newgrounds.d.ts:186

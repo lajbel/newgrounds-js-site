@@ -9,4 +9,4 @@ title: "MedalGetMedalScoreParams"
 
 ## Source
 
-newgrounds.d.ts:289
+newgrounds.d.ts:298

@@ -18,4 +18,4 @@ Contains information about a scoreboard.
 
 ## Source
 
-newgrounds.d.ts:128
+newgrounds.d.ts:137

@@ -2,10 +2,10 @@
 editUrl: false
 next: false
 prev: false
-title: "setCloudData"
+title: "SetCloudData"
 ---
 
-> **setCloudData**(`id`, `value`): `Promise`\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
+> **SetCloudData**(`id`, `value`): `Promise`\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
 
 Set cloud data in a save slot
 
@@ -24,4 +24,4 @@ The save slot that was updated
 
 ## Source
 
-newgrounds.d.ts:480
+global.d.ts:12

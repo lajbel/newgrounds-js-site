@@ -2,7 +2,7 @@
 editUrl: false
 next: false
 prev: false
-title: "Debug"
+title: "NGDebug"
 ---
 
 Contains extra debugging information.
@@ -12,4 +12,4 @@ Contains extra debugging information.
 | Property | Type | Description |
 | :------ | :------ | :------ |
 | `exec_time` | `string` | The time, in milliseconds, that it took to execute a request. |
-| `request` | `Request$1` | A copy of the request object that was posted to the server. |
+| `request` | [`NGIORequest`](/api/interfaces/ngiorequest/) | A copy of the request object that was posted to the server. |

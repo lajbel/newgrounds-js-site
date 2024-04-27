@@ -17,4 +17,4 @@ title: "ScoreBoardPostScoreParams"
 
 ## Source
 
-newgrounds.d.ts:324
+newgrounds.d.ts:333

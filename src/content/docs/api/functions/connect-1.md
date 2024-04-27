@@ -24,4 +24,4 @@ A new NewgroundsClient
 
 ## Source
 
-newgrounds.d.ts:471
+newgrounds.d.ts:480

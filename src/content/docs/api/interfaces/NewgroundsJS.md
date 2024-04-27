@@ -28,7 +28,7 @@ A new NewgroundsClient
 
 #### Source
 
-newgrounds.d.ts:398
+newgrounds.d.ts:407
 
 ***
 
@@ -52,7 +52,7 @@ The data stored in the save slot
 
 #### Source
 
-newgrounds.d.ts:455
+newgrounds.d.ts:464
 
 ***
 
@@ -77,7 +77,7 @@ Scores corresponding to the scoreboard
 
 #### Source
 
-newgrounds.d.ts:420
+newgrounds.d.ts:429
 
 ***
 
@@ -95,7 +95,7 @@ The username of the current user, if they are logged in
 
 #### Source
 
-newgrounds.d.ts:435
+newgrounds.d.ts:444
 
 ***
 
@@ -113,7 +113,7 @@ The version of your Newgrounds Project
 
 #### Source
 
-newgrounds.d.ts:441
+newgrounds.d.ts:450
 
 ***
 
@@ -131,7 +131,7 @@ A boolean indicating if the user is a supporter, if they are logged in
 
 #### Source
 
-newgrounds.d.ts:447
+newgrounds.d.ts:456
 
 ***
 
@@ -149,7 +149,7 @@ The user that was logged in
 
 #### Source
 
-newgrounds.d.ts:404
+newgrounds.d.ts:413
 
 ***
 
@@ -174,7 +174,7 @@ The Score that was posted to the board.
 
 #### Source
 
-newgrounds.d.ts:429
+newgrounds.d.ts:438
 
 ***
 
@@ -199,7 +199,7 @@ The save slot that was updated
 
 #### Source
 
-newgrounds.d.ts:464
+newgrounds.d.ts:473
 
 ***
 
@@ -223,7 +223,7 @@ A boolean indicating if the medal was unlocked
 
 #### Source
 
-newgrounds.d.ts:412
+newgrounds.d.ts:421
 
 ## Properties
 

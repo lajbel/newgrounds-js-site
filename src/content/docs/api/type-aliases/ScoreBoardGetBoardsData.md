@@ -15,4 +15,4 @@ title: "ScoreBoardGetBoardsData"
 
 ## Source
 
-newgrounds.d.ts:297
+newgrounds.d.ts:306

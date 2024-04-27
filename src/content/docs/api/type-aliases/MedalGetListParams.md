@@ -15,4 +15,4 @@ title: "MedalGetListParams"
 
 ## Source
 
-newgrounds.d.ts:283
+newgrounds.d.ts:292

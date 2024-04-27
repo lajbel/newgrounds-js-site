@@ -20,4 +20,4 @@ Contains information about a score posted to a scoreboard.
 
 ## Source
 
-newgrounds.d.ts:115
+newgrounds.d.ts:124

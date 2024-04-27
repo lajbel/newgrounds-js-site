@@ -2,10 +2,10 @@
 editUrl: false
 next: false
 prev: false
-title: "login"
+title: "Login"
 ---
 
-> **login**(): `Promise`\<[`User`](/api/type-aliases/user/)\>
+> **Login**(): `Promise`\<[`User`](/api/type-aliases/user/)\>
 
 Log in the user
 
@@ -17,4 +17,4 @@ The user that was logged in
 
 ## Source
 
-newgrounds.d.ts:472
+global.d.ts:4

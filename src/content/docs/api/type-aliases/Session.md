@@ -21,4 +21,4 @@ Contains information about the current user session.
 
 ## Source
 
-newgrounds.d.ts:137
+newgrounds.d.ts:146

@@ -15,4 +15,4 @@ title: "CloudSaveClearSlotParams"
 
 ## Source
 
-newgrounds.d.ts:193
+newgrounds.d.ts:202

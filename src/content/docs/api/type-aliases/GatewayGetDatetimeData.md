@@ -16,4 +16,4 @@ title: "GatewayGetDatetimeData"
 
 ## Source
 
-newgrounds.d.ts:225
+newgrounds.d.ts:234

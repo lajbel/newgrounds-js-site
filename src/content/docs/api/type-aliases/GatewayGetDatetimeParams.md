@@ -9,4 +9,4 @@ title: "GatewayGetDatetimeParams"
 
 ## Source
 
-newgrounds.d.ts:229
+newgrounds.d.ts:238

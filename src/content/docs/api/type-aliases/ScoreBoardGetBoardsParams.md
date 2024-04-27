@@ -9,4 +9,4 @@ title: "ScoreBoardGetBoardsParams"
 
 ## Source
 
-newgrounds.d.ts:300
+newgrounds.d.ts:309

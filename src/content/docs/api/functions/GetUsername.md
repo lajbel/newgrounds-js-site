@@ -2,10 +2,10 @@
 editUrl: false
 next: false
 prev: false
-title: "getUsername"
+title: "GetUsername"
 ---
 
-> **getUsername**(): `Promise`\<`string`\>
+> **GetUsername**(): `Promise`\<`string`\>
 
 Get the username of the current user
 
@@ -17,4 +17,4 @@ The username of the current user, if they are logged in
 
 ## Source
 
-newgrounds.d.ts:476
+global.d.ts:8

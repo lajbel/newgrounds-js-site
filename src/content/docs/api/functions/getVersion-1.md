@@ -17,4 +17,4 @@ The version of your Newgrounds Project
 
 ## Source
 
-newgrounds.d.ts:477
+newgrounds.d.ts:486

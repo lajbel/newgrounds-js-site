@@ -2,10 +2,10 @@
 editUrl: false
 next: false
 prev: false
-title: "getScores"
+title: "GetScores"
 ---
 
-> **getScores**(`scoreboardID`, `opt`): `Promise`\<[`Score`](/api/type-aliases/score/)[]\>
+> **GetScores**(`scoreboardID`, `opt`): `Promise`\<[`Score`](/api/type-aliases/score/)[]\>
 
 Get the scores for a scoreboard
 
@@ -24,4 +24,4 @@ Scores corresponding to the scoreboard
 
 ## Source
 
-newgrounds.d.ts:474
+global.d.ts:6

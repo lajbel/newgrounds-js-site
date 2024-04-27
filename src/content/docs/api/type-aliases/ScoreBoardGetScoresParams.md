@@ -22,4 +22,4 @@ title: "ScoreBoardGetScoresParams"
 
 ## Source
 
-newgrounds.d.ts:310
+newgrounds.d.ts:319

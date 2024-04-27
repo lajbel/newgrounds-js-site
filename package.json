@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "ngjs": "cd newgrounds-js && pnpm install && pnpm run dts && pnpm run build"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",

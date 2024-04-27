@@ -16,4 +16,4 @@ title: "AppGetCurrentVersionData"
 
 ## Source
 
-newgrounds.d.ts:180
+newgrounds.d.ts:189

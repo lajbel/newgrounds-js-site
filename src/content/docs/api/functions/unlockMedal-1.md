@@ -23,4 +23,4 @@ A boolean indicating if the medal was unlocked
 
 ## Source
 
-newgrounds.d.ts:473
+newgrounds.d.ts:482
