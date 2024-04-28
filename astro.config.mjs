@@ -18,22 +18,22 @@ export default defineConfig({
             },
             sidebar: [
                 {
-                    label: "Installation",
-                    link: "/install/",
+                    label: "Getting Started",
+                    autogenerate: {
+                        directory: "start",
+                    },
                 },
-                {
-                    ...typeDocSidebarGroup,
-                },
+                typeDocSidebarGroup,
             ],
             plugins: [
                 starlightTypeDoc({
                     entryPoints: [
-                        "./newgrounds-js/dist/global.d.ts",
                         "./newgrounds-js/dist/newgrounds.d.ts",
                     ],
                     typeDoc: {
                         plugin: [
                             "typedoc-plugin-merge-modules",
+                            "typedoc-plugin-mdn-links",
                         ],
                         /** Merge Modules */
                         mergeModulesRenameDefaults: false,

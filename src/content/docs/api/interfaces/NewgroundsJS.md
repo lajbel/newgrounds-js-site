@@ -34,7 +34,7 @@ newgrounds.d.ts:407
 
 ### getCloudData()
 
-> **getCloudData**(`id`): `Promise`\<`string`\>
+> **getCloudData**(`id`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 Get cloud data from a save slot
 
@@ -46,7 +46,7 @@ Get cloud data from a save slot
 
 #### Returns
 
-`Promise`\<`string`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 The data stored in the save slot
 
@@ -58,7 +58,7 @@ newgrounds.d.ts:464
 
 ### getScores()
 
-> **getScores**(`scoreboardID`, `opt`): `Promise`\<[`Score`](/api/type-aliases/score/)[]\>
+> **getScores**(`scoreboardID`, `opt`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Score`](/api/type-aliases/score/)[]\>
 
 Get the scores for a scoreboard
 
@@ -71,7 +71,7 @@ Get the scores for a scoreboard
 
 #### Returns
 
-`Promise`\<[`Score`](/api/type-aliases/score/)[]\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Score`](/api/type-aliases/score/)[]\>
 
 Scores corresponding to the scoreboard
 
@@ -83,13 +83,13 @@ newgrounds.d.ts:429
 
 ### getUsername()
 
-> **getUsername**(): `Promise`\<`string`\>
+> **getUsername**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 Get the username of the current user
 
 #### Returns
 
-`Promise`\<`string`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 The username of the current user, if they are logged in
 
@@ -101,13 +101,13 @@ newgrounds.d.ts:444
 
 ### getVersion()
 
-> **getVersion**(): `Promise`\<`string`\>
+> **getVersion**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 Get the version of your Newgrounds Project
 
 #### Returns
 
-`Promise`\<`string`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 The version of your Newgrounds Project
 
@@ -119,13 +119,13 @@ newgrounds.d.ts:450
 
 ### isSupporter()
 
-> **isSupporter**(): `Promise`\<`boolean`\>
+> **isSupporter**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
 Check if the current user is a supporter
 
 #### Returns
 
-`Promise`\<`boolean`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
 A boolean indicating if the user is a supporter, if they are logged in
 
@@ -137,13 +137,13 @@ newgrounds.d.ts:456
 
 ### login()
 
-> **login**(): `Promise`\<[`User`](/api/type-aliases/user/)\>
+> **login**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`User`](/api/type-aliases/user/)\>
 
 Log in the user
 
 #### Returns
 
-`Promise`\<[`User`](/api/type-aliases/user/)\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`User`](/api/type-aliases/user/)\>
 
 The user that was logged in
 
@@ -155,7 +155,7 @@ newgrounds.d.ts:413
 
 ### postScore()
 
-> **postScore**(`scoreboardID`, `value`): `Promise`\<[`Score`](/api/type-aliases/score/)\>
+> **postScore**(`scoreboardID`, `value`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Score`](/api/type-aliases/score/)\>
 
 Post a score to a scoreboard
 
@@ -168,7 +168,7 @@ Post a score to a scoreboard
 
 #### Returns
 
-`Promise`\<[`Score`](/api/type-aliases/score/)\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Score`](/api/type-aliases/score/)\>
 
 The Score that was posted to the board.
 
@@ -180,7 +180,7 @@ newgrounds.d.ts:438
 
 ### setCloudData()
 
-> **setCloudData**(`id`, `value`): `Promise`\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
+> **setCloudData**(`id`, `value`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
 
 Set cloud data in a save slot
 
@@ -193,7 +193,7 @@ Set cloud data in a save slot
 
 #### Returns
 
-`Promise`\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
 
 The save slot that was updated
 
@@ -205,7 +205,7 @@ newgrounds.d.ts:473
 
 ### unlockMedal()
 
-> **unlockMedal**(`medalID`): `Promise`\<`boolean`\>
+> **unlockMedal**(`medalID`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
 Unlock a medal
 
@@ -217,7 +217,7 @@ Unlock a medal
 
 #### Returns
 
-`Promise`\<`boolean`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
 A boolean indicating if the medal was unlocked
 

@@ -5,7 +5,7 @@ prev: false
 title: "setCloudData"
 ---
 
-> **setCloudData**(`id`, `value`): `Promise`\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
+> **setCloudData**(`id`, `value`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
 
 Set cloud data in a save slot
 
@@ -18,7 +18,7 @@ Set cloud data in a save slot
 
 ## Returns
 
-`Promise`\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`SaveSlot`](/api/type-aliases/saveslot/)\>
 
 The save slot that was updated
 

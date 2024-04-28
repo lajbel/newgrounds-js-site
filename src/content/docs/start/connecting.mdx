@@ -1,0 +1,26 @@
+---
+title: Connecting to your project
+description: Learn how to connect to your project using Newgrounds.js.
+sidebar:
+    order: 3
+---
+
+import { Aside } from "@astrojs/starlight/components";
+
+Now you have your credentials, with them you can connect to your project.
+
+```js
+// main.js
+import ng from "newgrounds.js";
+
+ng.connect("58164:B7EmpwFA", "5FQJE8pAE74+8Z+5ub4xiw==");
+```
+
+Now you are connected to your project starting a session. The session will
+be used for get data of your game, and if the game is on Newgrounds, you also
+have the user data.
+
+<Aside type="note">
+If your game is also avaible out of Newgrounds, you must authenticate the user,
+you can learn how in the [Authentication guide](/docs/authentication).
+</Aside>

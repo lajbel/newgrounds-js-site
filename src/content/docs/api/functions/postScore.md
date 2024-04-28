@@ -5,7 +5,7 @@ prev: false
 title: "postScore"
 ---
 
-> **postScore**(`scoreboardID`, `value`): `Promise`\<[`Score`](/api/type-aliases/score/)\>
+> **postScore**(`scoreboardID`, `value`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Score`](/api/type-aliases/score/)\>
 
 Post a score to a scoreboard
 
@@ -18,7 +18,7 @@ Post a score to a scoreboard
 
 ## Returns
 
-`Promise`\<[`Score`](/api/type-aliases/score/)\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`Score`](/api/type-aliases/score/)\>
 
 The Score that was posted to the board.
 

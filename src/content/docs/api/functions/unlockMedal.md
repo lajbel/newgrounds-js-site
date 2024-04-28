@@ -5,7 +5,7 @@ prev: false
 title: "unlockMedal"
 ---
 
-> **unlockMedal**(`medalID`): `Promise`\<`boolean`\>
+> **unlockMedal**(`medalID`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
 Unlock a medal
 
@@ -17,7 +17,7 @@ Unlock a medal
 
 ## Returns
 
-`Promise`\<`boolean`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`boolean`\>
 
 A boolean indicating if the medal was unlocked
 

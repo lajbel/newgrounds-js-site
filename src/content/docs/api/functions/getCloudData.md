@@ -5,7 +5,7 @@ prev: false
 title: "getCloudData"
 ---
 
-> **getCloudData**(`id`): `Promise`\<`string`\>
+> **getCloudData**(`id`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 Get cloud data from a save slot
 
@@ -17,7 +17,7 @@ Get cloud data from a save slot
 
 ## Returns
 
-`Promise`\<`string`\>
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
 
 The data stored in the save slot
 
