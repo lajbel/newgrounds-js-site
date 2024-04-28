@@ -13,6 +13,9 @@ export default defineConfig({
                 src: "./src/assets/newgrounds.js.png",
                 replacesTitle: true,
             },
+            customCss: [
+                "./src/styles/custom.css",
+            ],
             social: {
                 github: "https://github.com/lajbel/newgrounds-js",
             },
