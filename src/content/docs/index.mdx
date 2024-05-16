@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Newgrounds.js is a library that allows you to easily integrate your game with Newgrounds.io, unlocking features like medals, scoreboards, and more.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/purpleegg.png
   actions:
     - text: Installation Guide
       link: /start/install/
@@ -13,8 +13,42 @@ hero:
       variant: primary
 ---
 
-import { Aside } from "@astrojs/starlight/components"
+import { Code } from "@astrojs/starlight/components";
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-<Aside type="caution" title="Warning">
-  This documentation is still in progress. If you have any questions, please contact me as @lajbel in the Newgrounds.io [Discord server](https://discord.com/invite/wcsCk2ErhH).
-</Aside>
+
+<CardGrid>
+<Card title="Intuitive" icon="star">
+  Newgrounds.js is designed to be easy to use and understand. You can start using it with just a few lines of code.
+</Card>
+<Card title="Modern" icon="rocket">
+  Using modern JavaScript features, as fetch, promises, and async/await.
+</Card>
+<Card title="Exact" icon="open-book">
+  You can use wrapper functions like `unlockMedal(421024)` or use the raw API with `call("Medal.unlock", { id: 421024 })`
+</Card>
+<Card title="TypeScript Support" icon="seti:typescript">
+  Newgrounds.js is written in TypeScript, so there's a fully support for types in wrapper functions and even raw API calls!
+</Card>
+</CardGrid>
+
+export const exampleCode = `
+import { connect, unlockMedal, postScore, login } from 'newgrounds.js';
+
+// Connecting to Newgrounds.io
+connect('your-game-id', 'your-encryption-key');
+
+// Logging in
+login();
+
+// Unlocking a medal
+unlockMedal('medal-id');
+
+// Posting a score
+postScore('scoreboard-id', 100);
+
+`
+export const fileName = 'example.js';
+export const highlights = ['file', 'CMS'];
+
+{/* <Code code={exampleCode} lang="js" title={fileName} mark={highlights} /> */}

@@ -26,6 +26,12 @@ export default defineConfig({
                         directory: "start",
                     },
                 },
+                {
+                    label: "Usage manual",
+                    autogenerate: {
+                        directory: "guides",
+                    },
+                },
                 typeDocSidebarGroup,
             ],
             plugins: [
