@@ -1,0 +1,27 @@
+---
+title: Authentification
+description: Learn how to authenticate users with Newgrounds.js.
+sidebar:
+    order: 8
+---
+
+Some actions related to the user like unlocking medals, post scores or saving
+data require the user to be authenticated. Usually if your game only runs on
+Newgrounds, this is not a problem, but if you want to run your game on other
+site, you need to authenticate the user.
+
+## Authenticating the user
+
+Newgrounds.js provides a method to authenticate the user. This method will open
+a new window where the user can log in or create an account.
+
+```js
+login();
+```
+
+After the user has logged in, you can check if the user is authenticated with
+the `isLoggedIn` method.
+
+```js
+isLoggedIn(); // true or false
+```
