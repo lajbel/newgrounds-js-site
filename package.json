@@ -8,7 +8,9 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "ngjs": "cd newgrounds-js && pnpm install && pnpm run dts && pnpm run build"
+    "ngjs": "cd newgrounds-js && pnpm install && pnpm run dts && pnpm run build",
+    "cf:preview": "wrangler pages dev dist",
+    "cf:publish": "wrangler pages deploy dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
