@@ -5,7 +5,7 @@ prev: false
 title: "ScoreBoardGetScoresParams"
 ---
 
-> **ScoreBoardGetScoresParams**: \{`app_id`: `string`;`id`: `number`;`limit`: `number`;`period`: `string`;`skip`: `number`;`social`: `boolean`;`tag`: `string`;`user`: `string` \| `number`;  }
+> **ScoreBoardGetScoresParams**: \{`app_id`: `string`;`id`: `number`;`limit`: `number`;`period`: [`Period`](/api/type-aliases/period/);`skip`: `number`;`social`: `boolean`;`tag`: `string`;`user`: `string` \| `number`;  }
 
 ## Type declaration
 
@@ -14,7 +14,7 @@ title: "ScoreBoardGetScoresParams"
 | `app_id` | `string` |
 | `id` | `number` |
 | `limit` | `number` |
-| `period` | `string` |
+| `period` | [`Period`](/api/type-aliases/period/) |
 | `skip` | `number` |
 | `social` | `boolean` |
 | `tag` | `string` |
@@ -22,4 +22,4 @@ title: "ScoreBoardGetScoresParams"
 
 ## Source
 
-newgrounds.d.ts:319
+newgrounds.d.ts:329

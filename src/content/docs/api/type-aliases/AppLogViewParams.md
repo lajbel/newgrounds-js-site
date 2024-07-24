@@ -15,4 +15,4 @@ title: "AppLogViewParams"
 
 ## Source
 
-newgrounds.d.ts:196
+newgrounds.d.ts:206

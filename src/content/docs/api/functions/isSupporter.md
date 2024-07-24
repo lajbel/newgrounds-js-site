@@ -17,4 +17,4 @@ A boolean indicating if the user is a supporter, if they are logged in
 
 ## Source
 
-newgrounds.d.ts:487
+newgrounds.d.ts:529

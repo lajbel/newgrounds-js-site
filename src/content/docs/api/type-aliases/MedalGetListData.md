@@ -16,4 +16,4 @@ title: "MedalGetListData"
 
 ## Source
 
-newgrounds.d.ts:288
+newgrounds.d.ts:298

@@ -16,4 +16,4 @@ title: "EventLogEventParams"
 
 ## Source
 
-newgrounds.d.ts:230
+newgrounds.d.ts:240

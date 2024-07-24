@@ -15,4 +15,4 @@ title: "LoaderLoadAuthorUrlData"
 
 ## Source
 
-newgrounds.d.ts:247
+newgrounds.d.ts:257

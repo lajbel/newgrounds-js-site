@@ -15,4 +15,4 @@ title: "LoaderLoadOfficialUrlData"
 
 ## Source
 
-newgrounds.d.ts:271
+newgrounds.d.ts:281
