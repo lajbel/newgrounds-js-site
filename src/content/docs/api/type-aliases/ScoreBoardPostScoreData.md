@@ -16,4 +16,4 @@ title: "ScoreBoardPostScoreData"
 
 ## Source
 
-newgrounds.d.ts:329
+newgrounds.d.ts:339

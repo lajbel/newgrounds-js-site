@@ -17,4 +17,4 @@ The user that was logged in
 
 ## Source
 
-newgrounds.d.ts:481
+newgrounds.d.ts:523

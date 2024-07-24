@@ -17,4 +17,4 @@ The username of the current user, if they are logged in
 
 ## Source
 
-newgrounds.d.ts:485
+newgrounds.d.ts:527

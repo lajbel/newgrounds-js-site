@@ -15,4 +15,4 @@ title: "EventLogEventData"
 
 ## Source
 
-newgrounds.d.ts:227
+newgrounds.d.ts:237

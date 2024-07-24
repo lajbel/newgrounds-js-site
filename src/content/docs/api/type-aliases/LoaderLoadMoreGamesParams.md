@@ -17,4 +17,4 @@ title: "LoaderLoadMoreGamesParams"
 
 ## Source
 
-newgrounds.d.ts:258
+newgrounds.d.ts:268

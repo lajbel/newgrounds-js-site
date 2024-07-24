@@ -15,4 +15,4 @@ title: "CloudSaveClearSlotData"
 
 ## Source
 
-newgrounds.d.ts:199
+newgrounds.d.ts:209

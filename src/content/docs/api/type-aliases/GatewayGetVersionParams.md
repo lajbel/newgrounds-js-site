@@ -9,4 +9,4 @@ title: "GatewayGetVersionParams"
 
 ## Source
 
-newgrounds.d.ts:242
+newgrounds.d.ts:252

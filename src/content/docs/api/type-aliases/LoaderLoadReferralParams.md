@@ -18,4 +18,4 @@ title: "LoaderLoadReferralParams"
 
 ## Source
 
-newgrounds.d.ts:282
+newgrounds.d.ts:292

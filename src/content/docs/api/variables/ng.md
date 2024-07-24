@@ -9,4 +9,4 @@ title: "ng"
 
 ## Source
 
-newgrounds.d.ts:479
+newgrounds.d.ts:521
