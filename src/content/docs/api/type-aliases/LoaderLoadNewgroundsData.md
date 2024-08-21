@@ -15,4 +15,4 @@ title: "LoaderLoadNewgroundsData"
 
 ## Source
 
-newgrounds.d.ts:263
+newgrounds.d.ts:273

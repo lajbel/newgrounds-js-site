@@ -16,4 +16,4 @@ title: "MedalUnlockData"
 
 ## Source
 
-newgrounds.d.ts:299
+newgrounds.d.ts:309

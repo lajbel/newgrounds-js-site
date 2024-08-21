@@ -15,4 +15,4 @@ title: "LoaderLoadMoreGamesData"
 
 ## Source
 
-newgrounds.d.ts:255
+newgrounds.d.ts:265

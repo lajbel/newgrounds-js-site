@@ -16,4 +16,4 @@ title: "CloudSaveLoadSlotParams"
 
 ## Source
 
-newgrounds.d.ts:209
+newgrounds.d.ts:219

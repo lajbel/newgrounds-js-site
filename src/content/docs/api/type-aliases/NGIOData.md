@@ -38,4 +38,4 @@ title: "NGIOData"
 
 ## Source
 
-newgrounds.d.ts:338
+newgrounds.d.ts:348

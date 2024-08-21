@@ -24,4 +24,4 @@ Scores corresponding to the scoreboard
 
 ## Source
 
-newgrounds.d.ts:483
+newgrounds.d.ts:525

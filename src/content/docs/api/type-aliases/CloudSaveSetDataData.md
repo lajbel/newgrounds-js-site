@@ -15,4 +15,4 @@ title: "CloudSaveSetDataData"
 
 ## Source
 
-newgrounds.d.ts:220
+newgrounds.d.ts:230

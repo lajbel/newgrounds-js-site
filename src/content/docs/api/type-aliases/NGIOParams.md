@@ -38,4 +38,4 @@ title: "NGIOParams"
 
 ## Source
 
-newgrounds.d.ts:364
+newgrounds.d.ts:374

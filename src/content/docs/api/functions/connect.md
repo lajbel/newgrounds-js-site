@@ -5,7 +5,7 @@ prev: false
 title: "connect"
 ---
 
-> **connect**(`appID`, `encKey`): `NewgroundsClient`
+> **connect**(`appID`, `encKey`, `config`?): `NewgroundsClient`
 
 Create a client and connect to the Newgrounds API
 
@@ -15,6 +15,7 @@ Create a client and connect to the Newgrounds API
 | :------ | :------ | :------ |
 | `appID` | `string` | The app id found on the Newgrounds API project page |
 | `encKey` | `string` | The encryption key found on the Newgrounds API project page |
+| `config`? | [`NewgroundsConfig`](/api/type-aliases/newgroundsconfig/) | - |
 
 ## Returns
 
@@ -24,4 +25,4 @@ A new NewgroundsClient
 
 ## Source
 
-newgrounds.d.ts:480
+newgrounds.d.ts:522

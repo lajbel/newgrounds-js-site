@@ -24,4 +24,4 @@ The save slot that was updated
 
 ## Source
 
-newgrounds.d.ts:489
+newgrounds.d.ts:531

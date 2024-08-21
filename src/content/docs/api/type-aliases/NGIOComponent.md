@@ -9,4 +9,4 @@ title: "NGIOComponent"
 
 ## Source
 
-newgrounds.d.ts:182
+newgrounds.d.ts:192

@@ -7,9 +7,31 @@ title: "NewgroundsJS"
 
 ## Methods
 
+### autoPing()
+
+> **autoPing**(`ms`): `void`
+
+Automatically pings the Newgrounds API, this is useful for keeping the session alive
+
+#### Parameters
+
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `ms` | `number` | The interval in milliseconds |
+
+#### Returns
+
+`void`
+
+#### Source
+
+newgrounds.d.ts:508
+
+***
+
 ### connect()
 
-> **connect**(`appID`, `encKey`): `NewgroundsClient`
+> **connect**(`appID`, `encKey`, `config`?): `NewgroundsClient`
 
 Create a client and connect to the Newgrounds API
 
@@ -19,6 +41,7 @@ Create a client and connect to the Newgrounds API
 | :------ | :------ | :------ |
 | `appID` | `string` | The app id found on the Newgrounds API project page |
 | `encKey` | `string` | The encryption key found on the Newgrounds API project page |
+| `config`? | [`NewgroundsConfig`](/api/type-aliases/newgroundsconfig/) | - |
 
 #### Returns
 
@@ -28,7 +51,7 @@ A new NewgroundsClient
 
 #### Source
 
-newgrounds.d.ts:407
+newgrounds.d.ts:424
 
 ***
 
@@ -52,7 +75,7 @@ The data stored in the save slot
 
 #### Source
 
-newgrounds.d.ts:464
+newgrounds.d.ts:481
 
 ***
 
@@ -77,7 +100,7 @@ Scores corresponding to the scoreboard
 
 #### Source
 
-newgrounds.d.ts:429
+newgrounds.d.ts:446
 
 ***
 
@@ -95,7 +118,7 @@ The username of the current user, if they are logged in
 
 #### Source
 
-newgrounds.d.ts:444
+newgrounds.d.ts:461
 
 ***
 
@@ -113,7 +136,25 @@ The version of your Newgrounds Project
 
 #### Source
 
-newgrounds.d.ts:450
+newgrounds.d.ts:467
+
+***
+
+### isOnNewgrounds()
+
+> **isOnNewgrounds**(): `boolean`
+
+Check if the game is current running on Newgrounds.com
+
+#### Returns
+
+`boolean`
+
+A boolean indicating if the game is running on Newgrounds.com
+
+#### Source
+
+newgrounds.d.ts:496
 
 ***
 
@@ -131,7 +172,31 @@ A boolean indicating if the user is a supporter, if they are logged in
 
 #### Source
 
-newgrounds.d.ts:456
+newgrounds.d.ts:473
+
+***
+
+### loadSoundID()
+
+> **loadSoundID**(`id`): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`ArrayBuffer`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer )\>
+
+A function to load a sound as a ArrayBuffer based on the provided ID.
+
+#### Parameters
+
+| Parameter | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `string` \| `number` | The ID of the sound to load. |
+
+#### Returns
+
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<[`ArrayBuffer`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer )\>
+
+A promise that resolves with the loaded sound as an ArrayBuffer.
+
+#### Source
+
+newgrounds.d.ts:515
 
 ***
 
@@ -149,7 +214,25 @@ The user that was logged in
 
 #### Source
 
-newgrounds.d.ts:413
+newgrounds.d.ts:430
+
+***
+
+### ping()
+
+> **ping**(): [`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
+
+Pings the Newgrounds API
+
+#### Returns
+
+[`Promise`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)\<`string`\>
+
+"pong"
+
+#### Source
+
+newgrounds.d.ts:502
 
 ***
 
@@ -174,7 +257,7 @@ The Score that was posted to the board.
 
 #### Source
 
-newgrounds.d.ts:438
+newgrounds.d.ts:455
 
 ***
 
@@ -199,7 +282,7 @@ The save slot that was updated
 
 #### Source
 
-newgrounds.d.ts:473
+newgrounds.d.ts:490
 
 ***
 
@@ -223,7 +306,7 @@ A boolean indicating if the medal was unlocked
 
 #### Source
 
-newgrounds.d.ts:421
+newgrounds.d.ts:438
 
 ## Properties
 

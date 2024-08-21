@@ -24,4 +24,4 @@ The Score that was posted to the board.
 
 ## Source
 
-newgrounds.d.ts:484
+newgrounds.d.ts:526

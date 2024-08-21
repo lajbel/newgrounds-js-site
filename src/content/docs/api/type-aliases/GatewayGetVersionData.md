@@ -15,4 +15,4 @@ title: "GatewayGetVersionData"
 
 ## Source
 
-newgrounds.d.ts:239
+newgrounds.d.ts:249

@@ -15,4 +15,4 @@ title: "AppStartSessionData"
 
 ## Source
 
-newgrounds.d.ts:183
+newgrounds.d.ts:193

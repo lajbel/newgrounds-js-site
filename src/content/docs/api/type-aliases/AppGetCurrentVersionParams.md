@@ -15,4 +15,4 @@ title: "AppGetCurrentVersionParams"
 
 ## Source
 
-newgrounds.d.ts:193
+newgrounds.d.ts:203

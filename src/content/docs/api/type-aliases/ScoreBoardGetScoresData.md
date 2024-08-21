@@ -5,7 +5,7 @@ prev: false
 title: "ScoreBoardGetScoresData"
 ---
 
-> **ScoreBoardGetScoresData**: \{`app_id`: `string`;`limit`: `number`;`period`: `string`;`scoreboard`: [`ScoreBoard`](/api/type-aliases/scoreboard/);`scores`: [`Score`](/api/type-aliases/score/)[];`social`: `boolean`;`user`: `any`;  }
+> **ScoreBoardGetScoresData**: \{`app_id`: `string`;`limit`: `number`;`period`: [`Period`](/api/type-aliases/period/);`scoreboard`: [`ScoreBoard`](/api/type-aliases/scoreboard/);`scores`: [`Score`](/api/type-aliases/score/)[];`social`: `boolean`;`user`: `any`;  }
 
 ## Type declaration
 
@@ -13,7 +13,7 @@ title: "ScoreBoardGetScoresData"
 | :------ | :------ |
 | `app_id` | `string` |
 | `limit` | `number` |
-| `period` | `string` |
+| `period` | [`Period`](/api/type-aliases/period/) |
 | `scoreboard` | [`ScoreBoard`](/api/type-aliases/scoreboard/) |
 | `scores` | [`Score`](/api/type-aliases/score/)[] |
 | `social` | `boolean` |
@@ -21,4 +21,4 @@ title: "ScoreBoardGetScoresData"
 
 ## Source
 
-newgrounds.d.ts:310
+newgrounds.d.ts:320
